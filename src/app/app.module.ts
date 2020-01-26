@@ -17,7 +17,6 @@ import { NavBarComponent } from './nav-bar/nav-bar.component';
 import { FooterComponent } from './footer/footer.component';
 import { VersionComponent } from './global/version/version.component';
 import { CopywriteComponent } from './global/copywrite/copywrite.component';
-import { SearchContactsComponent } from './search-contacts/search-contacts.component';
 
 const routes: Routes = [
   {
@@ -49,10 +48,6 @@ const routes: Routes = [
     component: NewFieldComponent
   },
   {
-    path: "search-contacts",
-    component: SearchContactsComponent
-  },
-  {
     path: "**",
     component: NotFoundComponent
   }
@@ -72,8 +67,7 @@ const routes: Routes = [
     NavBarComponent,
     FooterComponent,
     VersionComponent,
-    CopywriteComponent,
-    SearchContactsComponent
+    CopywriteComponent
   ],
   imports: [
     HttpClientModule,
