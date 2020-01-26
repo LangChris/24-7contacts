@@ -26,7 +26,7 @@ const routes: Routes = [
   },
   {
     path: "search",
-    component: SearchContactsComponent
+    component: SearchComponent
   },
   {
     path: "contacts",
@@ -47,6 +47,10 @@ const routes: Routes = [
   {
     path: "new-field",
     component: NewFieldComponent
+  },
+  {
+    path: "search-contacts",
+    component: SearchContactsComponent
   },
   {
     path: "**",
